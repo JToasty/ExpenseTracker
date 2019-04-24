@@ -1,0 +1,4 @@
+#Wed Apr 24 16:12:54 EDT 2019
+base.0=C\:\\Users\\kingp\\AndroidStudioProjects\\ExpenseTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\54
+path.0=classes.dex
+renamed.0=classes.dex

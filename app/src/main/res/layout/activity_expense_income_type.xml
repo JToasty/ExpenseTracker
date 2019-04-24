@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExpenseIncomeType"
+    android:background="@drawable/moneyfire2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:elevation="20dp"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/outline"
+            android:fontFamily="@font/caviardreams"
+            android:text="Income"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/outline"
+            android:fontFamily="@font/caviardreams"
+            android:text="Expense"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/food"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/foodicon"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/clothing"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/clothingicon"
+            android:background="@android:color/transparent"
+            android:layout_toRightOf="@+id/food"/>
+
+        <ImageButton
+            android:id="@+id/transport"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/transporticon"
+            android:background="@android:color/transparent"
+            android:layout_toRightOf="@+id/clothing"/>
+
+        <ImageButton
+            android:id="@+id/grocery"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/groceryicon"
+            android:background="@android:color/transparent"
+            android:layout_toRightOf="@+id/transport"/>
+
+        <ImageButton
+            android:id="@+id/bill"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/groceryicon"
+            android:background="@android:color/transparent"
+            android:layout_toRightOf="@+id/grocery"/>
+
+        <ImageButton
+        android:id="@+id/travel"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/groceryicon"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/food"/>
+
+        <ImageButton
+            android:id="@+id/Entertainment"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/groceryicon"
+            android:background="@android:color/transparent"
+            android:layout_below="@+id/food"
+            android:layout_toRightOf="@+id/food"/>
+
+
+
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+</LinearLayout>

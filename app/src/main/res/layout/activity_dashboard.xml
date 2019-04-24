@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashback"
+    android:clipToPadding="false"
+    android:padding="10dp"
+    tools:context=".Dashboard">
+
+
+    <LinearLayout
+        android:id="@+id/stuff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp">
+
+        <ImageButton
+            android:id="@+id/budget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_weight="0.3"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/budgeticon" />
+
+        <ImageButton
+            android:id="@+id/needs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_weight="0.3"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/needsicon" />
+
+        <ImageButton
+            android:id="@+id/notifications"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_weight="0.3"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/notificationicon" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dashboard">
+
+            <TextView
+                android:id="@+id/dashboard"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/holo_blue_dark"
+                android:clipToPadding="false"
+                android:elevation="20dp"
+                android:fontFamily="@font/caviardreams_bold"
+                android:gravity="bottom"
+                android:padding="10dp"
+                android:text="Dashboard"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/totalExpenses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dashboard"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/caviardreams"
+                android:text="Total Expenses"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/expenses"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/totalExpenses"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/white"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:text="100"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/currency1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/totalExpenses"
+                android:layout_toRightOf="@id/expenses"
+                android:fontFamily="@font/caviardreams_bold"
+                android:paddingLeft="10dp"
+                android:text="USD"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/totalIncome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/expenses"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/caviardreams"
+                android:text="Total Income"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/income"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/totalIncome"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/white"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:text="1000"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/currency2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/totalIncome"
+                android:layout_toRightOf="@id/income"
+                android:fontFamily="@font/caviardreams_bold"
+                android:paddingLeft="10dp"
+                android:text="USD"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/income"
+                android:text="--------------------------------------------------------------"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/transactionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line"
+                android:fontFamily="@font/caviardreams"
+                android:text="Transactions:"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:id="@+id/transactionLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/transactionTitle"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/transaction1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/white"
+                    android:backgroundTint="@android:color/background_light"
+                    android:orientation="vertical"
+                    android:padding="10px">
+
+                    <ImageButton
+                        android:id="@+id/transactionIcon1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/groceryicon" />
+
+                    <TextView
+                        android:id="@+id/transactionType1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/transactionIcon1"
+                        android:fontFamily="@font/caviardream"
+                        android:text="Groceries"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/amount1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="@font/caviardreams"
+                        android:text="-100 USD"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/description1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/transactionType1"
+                        android:layout_toRightOf="@id/transactionIcon1"
+                        android:fontFamily="sans-serif"
+                        android:text="Target groceries. Milk, Eggs, Bacon, item, item, item, item, item, item , item." />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/transaction2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/white"
+                    android:backgroundTint="@android:color/background_light"
+                    android:orientation="vertical"
+                    android:padding="10px">
+
+                    <ImageButton
+                        android:id="@+id/transactionIcon2"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/incomeicon" />
+
+                    <TextView
+                        android:id="@+id/transactionType2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/transactionIcon2"
+                        android:fontFamily="@font/caviardream"
+                        android:text="Check"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/amount2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="@font/caviardreams"
+                        android:text="+500 USD"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/description2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/transactionType2"
+                        android:layout_toRightOf="@id/transactionIcon2"
+                        android:fontFamily="sans-serif"
+                        android:text="April Monthly pay check" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/transaction3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/white"
+                    android:backgroundTint="@android:color/background_light"
+                    android:orientation="vertical"
+                    android:padding="10px">
+
+                    <ImageButton
+                        android:id="@+id/transactionIcon3"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/incomeicon" />
+
+                    <TextView
+                        android:id="@+id/transactionType3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/transactionIcon3"
+                        android:fontFamily="@font/caviardream"
+                        android:text="Check"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/amount3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="@font/caviardreams"
+                        android:text="+500 USD"
+                        android:textColor="@android:color/holo_green_light"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/description3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/transactionType3"
+                        android:layout_toRightOf="@id/transactionIcon3"
+                        android:fontFamily="sans-serif"
+                        android:text="May Monthly pay check" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/transaction4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@android:color/white"
+                    android:backgroundTint="@android:color/background_light"
+                    android:orientation="vertical"
+                    android:padding="10px">
+
+                    <ImageButton
+                        android:id="@+id/transactionIcon4"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/clothingicon" />
+
+                    <TextView
+                        android:id="@+id/transactionType4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/transactionIcon4"
+                        android:fontFamily="@font/caviardream"
+                        android:text="Clothing"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/amount4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:fontFamily="@font/caviardreams"
+                        android:text="-94.50 USD"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/description4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/transactionType4"
+                        android:layout_toRightOf="@id/transactionIcon4"
+                        android:fontFamily="sans-serif"
+                        android:text="Roosevelt shopping mall" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingAdd"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="81dp"
+        android:layout_marginEnd="29dp"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_orange_light"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/plus" />
+</RelativeLayout>
