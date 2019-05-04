@@ -1,4 +1,4 @@
-#Wed Apr 24 10:09:46 EDT 2019
-base.0=C\:\\Users\\kingp\\AndroidStudioProjects\\ExpenseTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\53
+#Wed May 01 18:57:47 EDT 2019
+base.0=C\:\\Users\\rijar\\AndroidStudioProjects\\ExpenseTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.0=classes.dex
 renamed.0=classes.dex
