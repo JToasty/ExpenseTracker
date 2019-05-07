@@ -13,7 +13,7 @@
         android:id="@+id/descIcon"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@android:color/holo_blue_light"
         android:contentDescription="@string/food"
         android:padding="10dp"
         android:src="@drawable/businessicon" />

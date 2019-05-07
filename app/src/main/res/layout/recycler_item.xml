@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     android:background="@android:color/holo_blue_dark"
     android:layout_margin="10dp"
-    android:padding="10px">
+    android:padding="5dp"
+    android:elevation="10dp">
 
     <ImageView
         android:id="@+id/iconItem"
@@ -13,14 +14,16 @@
         android:layout_height="40dp"
         android:background="@drawable/rounded_drawable"
         android:scaleType="fitCenter"
-        android:src="@drawable/businessicon"/>
+        android:layout_centerVertical="true"
+        android:src="@drawable/businessicon"
+        android:padding="5dp"
+        android:layout_marginRight="10dp"/>
 
     <TextView
         android:id="@+id/transactionTypeItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/iconItem"
-        android:padding="5dp"
         android:fontFamily="@font/caviardream"
         android:text="Groceries"
         android:textColor="@android:color/white"
@@ -32,23 +35,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:fontFamily="@font/caviardreams"
+        android:fontFamily="@font/caviardreams_bold"
         android:text="-100 USD"
-        android:textColor="@color/colorAccent"
+        android:textColor="@android:color/white"
         android:textSize="15sp" />
 
     <TextView
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="5dp"
         android:layout_below="@+id/transactionTypeItem"
         android:layout_toRightOf="@id/iconItem"
+        android:ellipsize="end"
         android:fontFamily="sans-serif"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:text="Target groceries. Milk, Eggs, Bacon, item, item, item, item, item, item , item."
         android:textColor="@android:color/white"
         android:textSize="10sp"
-        android:ellipsize="end"
-        android:maxLines="1"
-        android:text="Target groceries. Milk, Eggs, Bacon, item, item, item, item, item, item , item." />
+        android:textStyle="italic" />
 
 </RelativeLayout>

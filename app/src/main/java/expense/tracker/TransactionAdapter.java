@@ -8,54 +8,55 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class TransactionAdapter extends RecyclerView.Adapter{
-
-    private List tTransactionData;
-    private Context tContext;
-
-
-    public TransactionAdapter(Context tContext, List tTransactionData)
-    {
-        this.tTransactionData = tTransactionData;
-        this.tContext = tContext;
+class ViewHolder extends RecyclerView.ViewHolder {
+    public ImageView tIcon;
+    public TextView tTransactionType;
+    public TextView tAmount;
+    public TextView tDesc;
 
 
-
-    }
-    @Override
-    public TransactionViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler_item,
-                parent, false);
-        return new TransactionViewHolder(view);
-
-
-    }
-
-    @Override
-    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-
-    }
-
-    @Override
-    public int getItemCount() {
-        return 0;
+    public ViewHolder(View itemView) {
+        super(itemView);
+        tIcon = itemView.findViewById(R.id.iconItem);
+        tTransactionType = itemView.findViewById(R.id.transactionTypeItem);
+        tAmount = itemView.findViewById(R.id.amount);
+        tDesc = itemView.findViewById(R.id.description);
     }
 }
 
-class TransactionViewHolder extends RecyclerView.ViewHolder {
-    ImageView Icon;
-    TextView transactionType;
-    TextView amount;
-    TextView desc;
+public class TransactionAdapter extends RecyclerView.Adapter<ViewHolder> {
 
-    public TransactionViewHolder(View itemView) {
-        super(itemView);
-        Icon = itemView.findViewById(R.id.iconItem);
-        transactionType = itemView.findViewById(R.id.transactionTypeItem);
-        amount = itemView.findViewById(R.id.amount);
-        desc = itemView.findViewById(R.id.description);
+    private List<TransactionData> tTransactionData;
+
+    public TransactionAdapter(List<TransactionData> tTransactionData)
+    {
+        this.tTransactionData = tTransactionData;
+    }
+
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler_item,
+                parent, false);
+        ViewHolder holder = new ViewHolder(view);
+        return holder;
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, int position) {
+
+        holder.tIcon.setImageResource(tTransactionData.get(position).getIcon());
+        holder.tTransactionType.setText(tTransactionData.get(position).getTransactionType());
+        holder.tAmount.setText(tTransactionData.get(position).getAmount());
+        holder.tDesc.setText(tTransactionData.get(position).getDesc());
+    }
+
+
+    @Override
+    public int getItemCount() {
+        return tTransactionData.size();
     }
 }
