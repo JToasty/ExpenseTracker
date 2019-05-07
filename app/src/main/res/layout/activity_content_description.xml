@@ -13,14 +13,14 @@
         android:id="@+id/descIcon"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="@android:color/holo_blue_light"
+        android:background="@android:color/white"
         android:contentDescription="@string/food"
         android:padding="10dp"
         android:src="@drawable/businessicon" />
 
     <TextView
         android:id="@+id/descItem"
-        android:layout_width="70dp"
+        android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_toEndOf="@id/descIcon"
         android:background="@android:color/holo_blue_dark"
@@ -34,21 +34,22 @@
         android:id="@+id/descCurrency"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@id/expensesContent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:fontFamily="@font/caviardreams_bold"
         android:gravity="center"
         android:text="@string/usd"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
         android:textSize="20sp" />
 
     <EditText
         android:id="@+id/expensesContent"
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:padding="10dp"
-        android:layout_toStartOf="@id/descCurrency"
+        android:layout_toEndOf="@id/descItem"
         android:background="@android:color/darker_gray"
         android:inputType="number"
         android:fontFamily=""
@@ -63,13 +64,15 @@
         android:layout_below="@id/descIcon"
         android:layout_marginTop="50dp"
         android:background="@android:drawable/picture_frame"
+        android:fontFamily="@font/caviardreams_bold"
         android:gravity="start"
+        android:hint="Enter Description here"
         android:inputType="text"
         android:padding="10dp"
-        android:text="Enter Description here"
-        android:fontFamily="@font/caviardreams_bold"/>
+        android:text="" />
 
     <Button
+        android:id="@+id/save"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_below="@+id/contentDesc"
