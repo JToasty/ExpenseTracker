@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_dark"
+    android:layout_margin="10dp"
+    android:padding="10px">
+
+    <ImageView
+        android:id="@+id/iconItem"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_drawable"
+        android:scaleType="fitCenter"
+        android:src="@drawable/businessicon"/>
+
+    <TextView
+        android:id="@+id/transactionTypeItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iconItem"
+        android:padding="5dp"
+        android:fontFamily="@font/caviardream"
+        android:text="Groceries"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:fontFamily="@font/caviardreams"
+        android:text="-100 USD"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_below="@+id/transactionTypeItem"
+        android:layout_toRightOf="@id/iconItem"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Target groceries. Milk, Eggs, Bacon, item, item, item, item, item, item , item." />
+
+</RelativeLayout>
