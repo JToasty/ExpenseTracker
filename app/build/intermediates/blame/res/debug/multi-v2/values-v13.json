@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rijar\\AndroidStudioProjects\\ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
+            "outputFile": "C:\\Users\\kingp\\Downloads\\ExpenseTracker-master\\ExpenseTracker-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rijar\\.gradle\\caches\\transforms-2\\files-2.1\\797109fa95884fcad3071a0f574110be\\res\\values-v13\\values-v13.xml",
+                    "source": "C:\\Users\\kingp\\.gradle\\caches\\transforms-2\\files-2.1\\a1ade9177591c5770a65804baf1bad5e\\res\\values-v13\\values-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

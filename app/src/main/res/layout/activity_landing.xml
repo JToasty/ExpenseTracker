@@ -26,7 +26,7 @@
         />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/usernameBox"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_gravity="center_horizontal"
@@ -40,7 +40,7 @@
         />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/passwordBox"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_gravity="center_horizontal"
@@ -64,4 +64,15 @@
         android:text="@string/login"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Invalid username or password"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:visibility="invisible"/>
 </LinearLayout>

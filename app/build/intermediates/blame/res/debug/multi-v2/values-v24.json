@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rijar\\AndroidStudioProjects\\ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\kingp\\Downloads\\ExpenseTracker-master\\ExpenseTracker-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rijar\\.gradle\\caches\\transforms-2\\files-2.1\\797109fa95884fcad3071a0f574110be\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\kingp\\.gradle\\caches\\transforms-2\\files-2.1\\a1ade9177591c5770a65804baf1bad5e\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rijar\\.gradle\\caches\\transforms-2\\files-2.1\\cedddbc76b82171890d7b44ac7cc5fbe\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\kingp\\.gradle\\caches\\transforms-2\\files-2.1\\af301384d328053ddb2c254581ae0d3c\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

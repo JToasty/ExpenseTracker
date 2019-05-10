@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\rijar\\AndroidStudioProjects\\ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-it\\values-it.xml",
+            "outputFile": "C:\\Users\\kingp\\Downloads\\ExpenseTracker-master\\ExpenseTracker-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-it\\values-it.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rijar\\.gradle\\caches\\transforms-2\\files-2.1\\6514a03873d3b5100895dbc24b004a83\\res\\values-it\\values-it.xml",
+                    "source": "C:\\Users\\kingp\\.gradle\\caches\\transforms-2\\files-2.1\\92ed9f91547fdb2abd300569dfd072c2\\res\\values-it\\values-it.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rijar\\.gradle\\caches\\transforms-2\\files-2.1\\797109fa95884fcad3071a0f574110be\\res\\values-it\\values-it.xml",
+                    "source": "C:\\Users\\kingp\\.gradle\\caches\\transforms-2\\files-2.1\\a1ade9177591c5770a65804baf1bad5e\\res\\values-it\\values-it.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

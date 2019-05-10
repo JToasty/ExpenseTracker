@@ -5,4 +5,25 @@
     <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="cash_dat_money">Cash Dat Money</string>
+    <string name="loan">loan</string>
+    <string name="tax_returns">tax returns</string>
+    <string name="other">other</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="gift">gift</string>
+    <string name="food">food</string>
+    <string name="clothing">clothing</string>
+    <string name="transport">transport</string>
+    <string name="bills">bills</string>
+    <string name="travel">travel</string>
+    <string name="entertain">entertain</string>
+    <string name="groceries">groceries</string>
+    <string name="work">work</string>
+    <string name="maintenance">maintenance</string>
+    <string name="business">business</string>
+    <string name="hobbies">hobbies</string>
+    <string name="salary">salary</string>
+    <string name="Food">Food</string>
+    <string name="usd">USD</string>
+    <string name="_100">100</string>
 </resources>

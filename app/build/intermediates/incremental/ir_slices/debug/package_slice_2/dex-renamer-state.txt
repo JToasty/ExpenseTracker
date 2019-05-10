@@ -1,1 +1,4 @@
-#Wed May 01 18:57:46 EDT 2019
+#Tue May 07 11:19:42 EDT 2019
+base.0=C\:\\Users\\kingp\\Downloads\\ExpenseTracker-master\\ExpenseTracker-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex

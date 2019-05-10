@@ -1,121 +1,131 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-27:12
-MERGED from [com.android.support:design:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\af9abb21b5f97b2c91e2e0559bd902a9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\797109fa95884fcad3071a0f574110be\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\b57af28f7de8f4322757a35893828c80\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\35075a72f398b4ad1d05aace356d7a8f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\0dce82d4c69af1224a139333d3655142\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\ceadf37f8ee70dddeb58420949bd135f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\73ff3494fdd42f7286352a6159de24cb\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\37b4a158f7bd6b1bbbd6a91a7f10c7ac\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\8848346094ac6ea05326594c1714fd26\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\9ded785005c1f38d0feaf82de20de94d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\53547d60df767ee5754851562e341aa3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\cedddbc76b82171890d7b44ac7cc5fbe\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\6514a03873d3b5100895dbc24b004a83\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\7255b9f916c2bde2e122ce35fea94fbf\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\668f4831120239d0a5f23a2b148db091\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\a1ade9177591c5770a65804baf1bad5e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\894ef543b8f31e4bf989ec1630a0bb84\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\198bb045cdb41db110ac47f785584dba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\a4c6e84923c275b2e9509aa6565069b4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\b4760d22af61116b53de355ad82752be\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\a2423e67ac4aa23f3884ba521496e783\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\4d1fbf3122d8e0fcec7184173ea0ea24\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\e45eb8d27a9568f2c16d36d3d5191d46\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\736911fda93ee2c9471e86c428495eb4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\ecda5036083b218cd456051276fdc2b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\af301384d328053ddb2c254581ae0d3c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\92ed9f91547fdb2abd300569dfd072c2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\697e0f9d0f77a44cd28e19c1876557aa\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:3:5-30
-		INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:5:5-25:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\b57af28f7de8f4322757a35893828c80\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\b57af28f7de8f4322757a35893828c80\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:5:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\894ef543b8f31e4bf989ec1630a0bb84\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\894ef543b8f31e4bf989ec1630a0bb84\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:7:9-44
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:7:9-44
 	android:allowBackup
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:11:9-40
+activity#expense.tracker.AdminView
+ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:12:9-56
+	android:name
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:12:19-44
 activity#expense.tracker.Landing
-ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:13:9-21:20
 	android:screenOrientation
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:14:13-49
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:15:13-49
 	android:name
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:13:13-36
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:14:13-36
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:19:27-74
 activity#expense.tracker.Dashboard
-ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:21:9-23:61
+ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:22:9-24:52
 	android:screenOrientation
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:23:13-49
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:24:13-49
 	android:name
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:22:13-38
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:23:13-38
 activity#expense.tracker.ExpenseIncomeType
-ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:24:9-64
+ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:25:9-55
 	android:name
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:24:19-52
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:25:19-52
+activity#expense.tracker.ContentDescription
+ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:27:9-29:52
+	android:screenOrientation
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml:28:13-47
 uses-sdk
-INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\af9abb21b5f97b2c91e2e0559bd902a9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\af9abb21b5f97b2c91e2e0559bd902a9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\797109fa95884fcad3071a0f574110be\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\797109fa95884fcad3071a0f574110be\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\b57af28f7de8f4322757a35893828c80\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\b57af28f7de8f4322757a35893828c80\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\35075a72f398b4ad1d05aace356d7a8f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\35075a72f398b4ad1d05aace356d7a8f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\0dce82d4c69af1224a139333d3655142\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\0dce82d4c69af1224a139333d3655142\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\ceadf37f8ee70dddeb58420949bd135f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\ceadf37f8ee70dddeb58420949bd135f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\73ff3494fdd42f7286352a6159de24cb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\73ff3494fdd42f7286352a6159de24cb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\37b4a158f7bd6b1bbbd6a91a7f10c7ac\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\37b4a158f7bd6b1bbbd6a91a7f10c7ac\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\8848346094ac6ea05326594c1714fd26\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\8848346094ac6ea05326594c1714fd26\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\9ded785005c1f38d0feaf82de20de94d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\9ded785005c1f38d0feaf82de20de94d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\53547d60df767ee5754851562e341aa3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\53547d60df767ee5754851562e341aa3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\cedddbc76b82171890d7b44ac7cc5fbe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\cedddbc76b82171890d7b44ac7cc5fbe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\6514a03873d3b5100895dbc24b004a83\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\6514a03873d3b5100895dbc24b004a83\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\7255b9f916c2bde2e122ce35fea94fbf\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\rijar\.gradle\caches\transforms-2\files-2.1\7255b9f916c2bde2e122ce35fea94fbf\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\668f4831120239d0a5f23a2b148db091\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\668f4831120239d0a5f23a2b148db091\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\a1ade9177591c5770a65804baf1bad5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\a1ade9177591c5770a65804baf1bad5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\894ef543b8f31e4bf989ec1630a0bb84\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\894ef543b8f31e4bf989ec1630a0bb84\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\198bb045cdb41db110ac47f785584dba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\198bb045cdb41db110ac47f785584dba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\a4c6e84923c275b2e9509aa6565069b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\a4c6e84923c275b2e9509aa6565069b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\b4760d22af61116b53de355ad82752be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\b4760d22af61116b53de355ad82752be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\a2423e67ac4aa23f3884ba521496e783\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\a2423e67ac4aa23f3884ba521496e783\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\4d1fbf3122d8e0fcec7184173ea0ea24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\4d1fbf3122d8e0fcec7184173ea0ea24\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\e45eb8d27a9568f2c16d36d3d5191d46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\e45eb8d27a9568f2c16d36d3d5191d46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\736911fda93ee2c9471e86c428495eb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\736911fda93ee2c9471e86c428495eb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\ecda5036083b218cd456051276fdc2b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\ecda5036083b218cd456051276fdc2b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\af301384d328053ddb2c254581ae0d3c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\af301384d328053ddb2c254581ae0d3c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\92ed9f91547fdb2abd300569dfd072c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\92ed9f91547fdb2abd300569dfd072c2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\697e0f9d0f77a44cd28e19c1876557aa\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\kingp\.gradle\caches\transforms-2\files-2.1\697e0f9d0f77a44cd28e19c1876557aa\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\rijar\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\src\main\AndroidManifest.xml
