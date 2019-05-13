@@ -26,6 +26,12 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
     TextView expenseView;
 
     @Override
+    protected void onStart()
+    {
+        super.onStart();
+
+    }
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
@@ -37,8 +43,8 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
 
         incomeView = findViewById(R.id.income);
         expenseView = findViewById(R.id.expenses);
-        incomeView.setText(Landing.dbHelper.getIncome() + "");
-        expenseView.setText("-" + Landing.dbHelper.getExpense());
+        incomeView.setText(Landing.dbHelper.getIncome());
+        expenseView.setText(Landing.dbHelper.getExpense());
 
         recyclerView = findViewById(R.id.transactionRecycler);
         recyclerView.setHasFixedSize(true);
@@ -50,10 +56,22 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
 
     private void initData()
     {
-        listData.add(new TransactionData(R.drawable.businessicon, "Business", "500 USD", "New client"));
-        listData.add(new TransactionData(R.drawable.groceryicon, "Business", "-100 USD", "Weekly groceries"));
-        listData.add(new TransactionData(R.drawable.foodicon, "Food", "-7.99 USD", "Taco Bell"));
-        listData.add(new TransactionData(R.drawable.gifticon, "Gift", "-30 USD", "Mothers day gift"));
+        listData.add(new TransactionData(R.drawable.businessicon, "Business", "500", "USD","New client"));
+        listData.add(new TransactionData(R.drawable.groceryicon, "Business", "-100", "USD", "Weekly groceries"));
+        listData.add(new TransactionData(R.drawable.foodicon, "Food", "-7.99", "USD", "Taco Bell"));
+        listData.add(new TransactionData(R.drawable.gifticon, "Gift", "-30", "USD", "Mothers day gift"));
+
+        String[][] all = Landing.dbHelper.getTransactions(Landing.currentUser);
+        //0 - name, 1 - type, 2 - amount, 3 - currency, 4 - desc
+
+        String type = "foodIcon";
+        String amount;
+        String currency;
+        String desc;
+        for(int i = 0; i < all[i].length; i++)
+        {
+            listData.add(new TransactionData(R.drawable.businessicon, all[0][i], all[1][i],  all[2][i], all[3][i]));
+        }
     }
 
     @Override

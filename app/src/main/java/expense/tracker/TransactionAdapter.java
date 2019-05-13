@@ -50,7 +50,7 @@ public class TransactionAdapter extends RecyclerView.Adapter<ViewHolder> {
 
         holder.tIcon.setImageResource(tTransactionData.get(position).getIcon());
         holder.tTransactionType.setText(tTransactionData.get(position).getTransactionType());
-        holder.tAmount.setText(tTransactionData.get(position).getAmount());
+        holder.tAmount.setText(tTransactionData.get(position).getAmount() + " " + tTransactionData.get(position).getCurrency());
         holder.tDesc.setText(tTransactionData.get(position).getDesc());
     }
 

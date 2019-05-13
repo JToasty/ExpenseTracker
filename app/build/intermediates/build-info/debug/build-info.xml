@@ -5,55 +5,56 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.4.0"
-    timestamp="1557283820500"
+    timestamp="1557678855085"
     token="-6083532678962449414"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="958" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="47" />
     <task
         name="verifier"
-        duration="0" />
+        duration="7" />
 
     <artifact
-        location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1557283601485"
+        timestamp="1557678553481"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -73,10 +74,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1557283820500"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1557678855085"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="C:\Users\kingp\Downloads\ExpenseTracker-master\ExpenseTracker-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
     </build>
 

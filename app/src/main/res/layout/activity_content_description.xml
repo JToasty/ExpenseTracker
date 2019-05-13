@@ -1,86 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
+    android:layout_margin="10dp"
     android:background="@android:color/white"
     tools:context=".ContentDescription">
 
-
-    <ImageView
-        android:id="@+id/descIcon"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:background="@android:color/white"
-        android:contentDescription="@string/food"
+    <LinearLayout
+        android:id="@+id/headerDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:padding="10dp"
-        android:src="@drawable/businessicon" />
+        android:orientation="vertical"
+        android:elevation="10dp"
+        android:background="@android:color/holo_blue_dark">
 
-    <TextView
-        android:id="@+id/descItem"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:layout_toEndOf="@id/descIcon"
-        android:background="@android:color/holo_blue_dark"
-        android:fontFamily="@font/caviardreams_bold"
-        android:gravity="center"
-        android:text="@string/Food"
-        android:textColor="@android:color/white"
-        android:textSize="15sp" />
+        <TextView
+            android:id="@+id/typeDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Expense:"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:fontFamily="@font/caviardreams_bold"/>
 
-    <TextView
-        android:id="@+id/descCurrency"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_toEndOf="@id/expensesContent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:gravity="center"
-        android:fontFamily="@font/caviardreams_bold"
-        android:text="@string/usd"
-        android:textColor="@android:color/white"
-        android:background="@android:color/holo_green_dark"
-        android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/descIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/white"
+                android:contentDescription="@string/food"
+                android:padding="10dp"
+                android:src="@drawable/foodicon" />
+
+            <TextView
+                android:id="@+id/descItem"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@android:color/white"
+                android:fontFamily="@font/caviardreams_bold"
+                android:gravity="center"
+                android:text="@string/Food"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/amountContent"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:hint="Amount"
+                android:inputType="numberDecimal"
+                android:padding="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:clickable="true"
+                android:focusable="true">
+
+
+                <TextView
+                    android:id="@+id/currencyText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/caviardreams_bold"
+                    android:text="USD"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/currencyButton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/downarrow"
+                    android:spinnerMode="dropdown"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
 
     <EditText
-        android:id="@+id/expensesContent"
-        android:layout_width="70dp"
-        android:layout_height="40dp"
-        android:layout_toEndOf="@id/descItem"
-        android:autofillHints=""
-        android:background="@android:color/darker_gray"
-        android:fontFamily=""
-        android:gravity="center"
-        android:inputType="numberDecimal"
-        android:padding="10dp"
-        android:text="0"
-        android:textColor="@android:color/white"
-        android:textSize="20sp" />
-
-    <EditText
-        android:id="@+id/contentDesc"
+        android:id="@+id/descContent"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_below="@id/descIcon"
+        android:layout_below="@id/headerDesc"
         android:layout_marginTop="30dp"
         android:background="@android:drawable/picture_frame"
         android:fontFamily="@font/caviardreams_bold"
         android:gravity="start"
-        android:hint="Enter Description here"
+        android:hint="@string/enter_description_here"
         android:inputType="text"
         android:padding="10dp"
-        android:text="" />
+        android:text=""
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/save"
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:layout_below="@+id/contentDesc"
+        android:layout_below="@+id/descContent"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="10dp"
-        android:background="@android:color/holo_blue_light"
-        android:text="save"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="@string/save"
         android:textSize="15sp"
         android:textColor="@android:color/white"/>
 </RelativeLayout>

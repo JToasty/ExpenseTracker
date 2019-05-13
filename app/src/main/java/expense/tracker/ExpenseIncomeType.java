@@ -94,119 +94,143 @@ public class ExpenseIncomeType extends AppCompatActivity implements View.OnClick
 
     @Override
     public void onClick(View v) {
-        if(v.getId() == income.getId())
-        {
+        if (v.getId() == income.getId()) {
             expenseTypes.setVisibility(View.GONE);
             incomeTypes.setVisibility(View.VISIBLE);
             currentPage = false;
-
+            return;
         }
 
-        if(v.getId() == expense.getId())
-        {
+        if (v.getId() == expense.getId()) {
             incomeTypes.setVisibility(View.GONE);
             expenseTypes.setVisibility(View.VISIBLE);
             currentPage = true;
+            return;
         }
 
-        if(!currentPage)
 
-            switch (v.getId())
-            {
+        if (!currentPage) {
+            Intent descIntent = new Intent(ExpenseIncomeType.this, ContentDescription.class);
+            descIntent.putExtra("page", "Income");
+            Bundle bundle = new Bundle();
+            switch (v.getId()) {
                 case R.id.salaryIncome:
-                    newItem = "salary";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent.putExtra("itemName", "Salary");
+                    bundle.putInt("itemImage", R.drawable.salaryicon);
+                    descIntent.putExtras(bundle);
                     break;
 
                 case R.id.businessIncome:
-                    newItem = "business";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent.putExtra("itemName", "Business");
+                    bundle.putInt("itemImage", R.drawable.businessicon);
+                    descIntent.putExtras(bundle);
                     break;
 
                 case R.id.giftIncome:
-                    newItem = "gift";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent.putExtra("itemName", "Gift");
+                    bundle.putInt("itemImage", R.drawable.gifticon);
+                    descIntent.putExtras(bundle);
                     break;
 
                 case R.id.loanIncome:
-                    newItem = "loan";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent.putExtra("itemName", "Loan");
+                    bundle.putInt("itemImage",R.drawable.loanicon);
+                    descIntent.putExtras(bundle);
                     break;
 
                 case R.id.taxIncome:
-                    newItem = "tax returns";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent.putExtra("itemName", "Tax Return");
+                    bundle.putInt("itemImage",R.drawable.taxreturnicon);
+                    descIntent.putExtras(bundle);
                     break;
 
                 case R.id.otherIncome:
-                    newItem = "other";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent.putExtra("itemName", "other");
+                    bundle.putInt("itemImage",R.drawable.othericon);
+                    descIntent.putExtras(bundle);
                     break;
 
             }
+            ExpenseIncomeType.this.startActivity(descIntent);
+        }
 
-        if (currentPage)
-            switch (v.getId())
-            {
+        if (currentPage) {
+            Intent descIntent2 = new Intent(ExpenseIncomeType.this, ContentDescription.class);
+            descIntent2.putExtra("page", "Expense");
+            Bundle bundle  = new Bundle();
+            switch (v.getId()) {
                 case R.id.foodExpense:
-                    newItem = "food";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent2.putExtra("itemName", "Food");
+                    bundle.putInt("itemImage",R.drawable.foodicon);
+                    descIntent2.putExtras(bundle);
                     break;
 
                 case R.id.clothingExpense:
-                    newItem = "clothing";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent2.putExtra("itemName", "Clothing");
+                    bundle.putInt("itemImage", R.drawable.clothingicon);
+                    descIntent2.putExtras(bundle);
                     break;
 
                 case R.id.transportExpense:
-                    newItem = "transport";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent2.putExtra("itemName", "Transportation");
+                    bundle.putInt("itemImage", R.drawable.transporticon);
+                    descIntent2.putExtras(bundle);
                     break;
 
                 case R.id.entertainmentExpense:
-                    newItem = "entertainment";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent2.putExtra("itemName", "Entertainment");
+                    bundle.putInt("itemImage", R.drawable.entertainmenticon);
+                    descIntent2.putExtras(bundle);
                     break;
 
                 case R.id.billsExpense:
-                    newItem = "bill";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent2.putExtra("itemName", "Bills");
+                    bundle.putInt("itemImage", R.drawable.billsicon);
+                    descIntent2.putExtras(bundle);
                     break;
 
                 case R.id.travelExpense:
-                    newItem = "travel";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent2.putExtra("itemName", "Travel");
+                    bundle.putInt("itemImage", R.drawable.travelicon);
+                    descIntent2.putExtras(bundle);
                     break;
 
                 case R.id.groceryExpense:
-                    newItem = "grocery";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent2.putExtra("itemName", "Grocery");
+                    bundle.putInt("itemImage", R.drawable.groceryicon);
+                    descIntent2.putExtras(bundle);
                     break;
 
                 case R.id.hobbyExpense:
-                    newItem = "hobby";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent2.putExtra("itemName", "Hobby");
+                    bundle.putInt("itemImage", R.drawable.hobbyicon);
+                    descIntent2.putExtras(bundle);
                     break;
 
                 case R.id.workExpense:
-                    newItem = "work";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent2.putExtra("itemName", "Work");
+                    bundle.putInt("itemImage", R.drawable.workicon);
+                    descIntent2.putExtras(bundle);
                     break;
 
                 case R.id.giftExpense:
-                    newItem = "gift";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
-                    break;
+                    descIntent2.putExtra("itemName", "Gift");
+                    bundle.putInt("itemImage", R.drawable.gifticon);
+                    descIntent2.putExtras(bundle);
 
                 case R.id.maintenanceExpense:
-                    newItem = "maintenance";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent2.putExtra("itemName", "Maintenance");
+                    bundle.putInt("itemImage", R.drawable.maintenanceicon);
+                    descIntent2.putExtras(bundle);
                     break;
 
                 case R.id.otherExpense:
-                    newItem = "other";
-                    ExpenseIncomeType.this.startActivity(new Intent(ExpenseIncomeType.this, ContentDescription.class));
+                    descIntent2.putExtra("itemName", "other");
+                    bundle.putInt("itemImage", R.drawable.othericon);
+                    descIntent2.putExtras(bundle);
                     break;
             }
+            ExpenseIncomeType.this.startActivity(descIntent2);
+        }
     }
 }

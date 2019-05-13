@@ -16,14 +16,14 @@
         android:orientation="horizontal"
         android:paddingTop="30dp"
         android:background="#FF33B5E5"
-        android:weightSum="6"
+        android:weightSum="2"
         >
 
         <Button
             android:id="@+id/incomeButton"
             android:layout_width="0dp"
             android:layout_height="60dp"
-            android:layout_weight="2.99"
+            android:layout_weight="1"
             android:background="#FF33B5E5"
             android:fontFamily="@font/caviardreams"
             android:gravity="bottom"
@@ -36,7 +36,7 @@
             android:id="@+id/expenseButton"
             android:layout_width="0dp"
             android:layout_height="60dp"
-            android:layout_weight="2.99"
+            android:layout_weight="1"
             android:background="#FF33B5E5"
             android:fontFamily="@font/caviardreams"
             android:gravity="bottom"

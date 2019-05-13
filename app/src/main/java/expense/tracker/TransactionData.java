@@ -6,13 +6,15 @@ public class TransactionData {
     private String transactionType;
     private String amount;
     private String desc;
+    private String currency;
 
-    public TransactionData(int icon, String transactionType, String amount, String desc)
+    public TransactionData(int icon, String transactionType, String amount, String currency, String desc)
     {
         this.icon = icon;
         this.transactionType = transactionType;
         this.amount = amount;
         this.desc = desc;
+        this.currency = currency;
     }
 
     public int getIcon() {
@@ -29,5 +31,9 @@ public class TransactionData {
 
     public String getDesc() {
         return desc;
+    }
+
+    public String getCurrency() {
+        return currency;
     }
 }

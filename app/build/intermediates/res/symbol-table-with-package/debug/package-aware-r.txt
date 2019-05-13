@@ -761,6 +761,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable downarrow
 drawable entertainmenticon
 drawable foodicon
 drawable gifticon
@@ -799,6 +800,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable transporticon
 drawable travelicon
+drawable uparrow
 drawable workicon
 font caviardream
 font caviardreams
@@ -841,6 +843,7 @@ id amount1
 id amount2
 id amount3
 id amount4
+id amountContent
 id async
 id auto
 id basic
@@ -868,12 +871,14 @@ id contentPanel
 id coordinator
 id currency1
 id currency2
+id currencyButton
+id currencyText
 id custom
 id customPanel
 id dashboard
 id decor_content_parent
 id default_activity_button
-id descCurrency
+id descContent
 id descIcon
 id descItem
 id description
@@ -900,7 +905,6 @@ id expanded_menu
 id expenseButton
 id expensePage
 id expenses
-id expensesContent
 id fill
 id fill_horizontal
 id fill_vertical
@@ -912,6 +916,7 @@ id ghost_view
 id giftExpense
 id giftIncome
 id groceryExpense
+id headerDesc
 id hobbyExpense
 id home
 id homeAsUp
@@ -1057,6 +1062,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id transportExpense
 id travelExpense
+id typeDesc
 id uniform
 id up
 id useLogo
@@ -1186,6 +1192,7 @@ string business
 string cash_dat_money
 string character_counter_pattern
 string clothing
+string enter_description_here
 string entertain
 string expense
 string food
@@ -1204,6 +1211,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string salary
+string save
 string search_menu_title
 string status_bar_notification_info_overflow
 string tax_returns
